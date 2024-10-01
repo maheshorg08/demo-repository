@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-component
+  name: my-test-component
   description: This is a sample component generated from the inner-sourcing template.
   owner: Team-B
   annotations:
-    github.com/project-slug: my-org/my-repo
+    github.com/project-slug: maheshorg08/demo-repository
 spec:
   type: Website
   lifecycle: experimental
