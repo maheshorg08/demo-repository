@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-component
+  description: This is a sample component generated from the inner-sourcing template.
+  owner: Team-B
+  annotations:
+    github.com/project-slug: my-org/my-repo
+spec:
+  type: Website
+  lifecycle: experimental
+  owner: Team-B
+  implementsApis:
+    - my-api
+  repository:
+    type: git
+    url: github.com?owner=maheshorg08&repo=demo-repository
+    path: /
