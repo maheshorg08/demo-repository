@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: maheshorg08/demo-repository
 spec:
   type: Website
-  lifecycle: experimental
+  lifecycle: production
   owner: Team-B
   implementsApis:
     - my-api
