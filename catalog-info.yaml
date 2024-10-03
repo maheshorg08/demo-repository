@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: inner-source-component-22
+  name: Test1
   description: This is a sample component generated from the inner-sourcing template.
   owner: Team-B
   annotations:
